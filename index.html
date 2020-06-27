@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fechamento de Caixa</title>
+</head>
+<body>
+    <header>
+        <div id="topo">
+            <h3>Calculo de fechamento de caixa</h3>
+        </div>
+    </header>
+    <main>
+        <div id="valor5c" class="moedas">
+        <input type="number" placeholder= " 5 Centavos aqui."  id="5cents" >
+        <input type="button" value="Calcular" onclick=calcular05()>
+        <p></p>
+        <div id="res5"></div>
+    </div>
+    <br>
+    <div id="valor10c" class="moedas">
+        <input type="number" placeholder= " 10 Centavos aqui."  id="10cents" >
+        <input type="button" value="Calcular" onclick="calcular10()">
+        <p></p>
+        <div id="res10"></div>
+    </div>
+    <br>
+    <div id="valor25c" class="moedas">
+        <input type="number" placeholder= " 25 Centavos aqui."  id="25cents" >
+        <input type="button" value="Calcular" onclick="calcular25()">
+    </div>
+    <p></p>
+    <div id="res25"></div>
+    <br>
+    <div id="valor50c" class="moedas">
+        <input type="number" placeholder= " 50 Centavos aqui."  id="50cents" >
+        <input type="button" value="Calcular" onclick="calcular50()">
+    </div>
+    <p></p>
+    <div id="res50"></div>
+    <br>
+    <div id="valor1r" class="moedas">
+        <input type="number" placeholder= " 1 Real aqui."  id="1rs">
+        <input type="button" value="Calcular" onclick="calcular1r()">
+    </div>
+    <p></p>
+    <div id="res1r"></div>
+    <br>
+    <div id="valor2r" class="moedas">
+        <input type="number" placeholder= " 2 Reais aqui."  id="2rs" >
+        <input type="button" value="Calcular" onclick="calcular2r()">
+    </div>
+    <p></p>
+    <div id="res2r"></div>
+    <br>
+    <div id="valor5r" class="moedas">
+        <input type="number" placeholder= " 5 Reais aqui."  id="5rs" >
+        <input type="button" value="Calcular" onclick="calcular5r()">
+    </div>
+    <p></p>
+    <div id="res5r"></div>
+    <br>
+    <div id="valor10r" class="moedas">
+        <input type="number" placeholder= " 10 Reais aqui."  id="10rs" >
+        <input type="button" value="Calcular" onclick="calcular10r()">
+    </div>
+    <p></p>
+    <div id="res10r"></div>
+    <br>
+    <div id="valor20r" class="moedas">
+        <input type="number" placeholder= " 20 Reais aqui."  id="20rs" >
+        <input type="button" value="Calcular" onclick="calcular20r()">
+    </div>
+    <p></p>
+    <div id="res20r"></div>
+    <br>
+    <div id="valor50r" class="moedas">
+        <input type="number" placeholder= " 50 Reais aqui."  id="50rs" >
+        <input type="button" value="Calcular" onclick="calcular50r()">
+    </div>
+    <p></p>
+    <div id="res50r"></div>
+    <br>
+    <div id="valor100r" class="moedas">
+        <input type="number" placeholder= " 100 Reais aqui."  id="100rs" >
+        <input type="button" value="Calcular" onclick="calcular100r()">
+    </div>
+    <p></p>
+    <div id="res100r"></div>
+    <br>
+<div>
+    <input type="button" value="Total" onclick="calculoFinal()">
+</div>
+<br>
+
+<div id="resfinal"></div>
+    
+</main>
+
+
+<script src="jscript.js"></script>
+</body>
+</html>
