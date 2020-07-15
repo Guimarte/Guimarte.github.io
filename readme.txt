@@ -1,0 +1,1 @@
+Criado sistema para calculo automatico pela quantidade de notas e moedas informadas
